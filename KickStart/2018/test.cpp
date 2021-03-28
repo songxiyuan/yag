@@ -1,9 +1,12 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
+
 int main()
 {
+
+    cout<<"asdfadsfad"<<endl;
     int a;
-    cout << "dasdfa";
     cin>>a;
     return 0;
 }

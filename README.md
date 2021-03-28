@@ -1,1 +1,7 @@
-# 当作草稿用
+# 当作
+```java
+class Hello{
+    public static void main(){
+    }
+}
+```
