@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/LeetCode/leetcode/editor/en/[204]Count Primes.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/LeetCode/leetcode/editor/en/[204]Count Primes.cpp" />
+              <option name="questionId" value="204" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LeetCode/leetcode/editor/en/[210]Course Schedule II.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/LeetCode/leetcode/editor/en/[210]Course Schedule II.cpp" />
+              <option name="questionId" value="210" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

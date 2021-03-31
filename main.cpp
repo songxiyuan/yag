@@ -104,7 +104,19 @@ int main1() {
     return 0;
 }
 
+int countPrimes(int n) {
+    vector<bool> sieve=vector<bool>(n,false);
+    int count=0;
+    for(int i=2;i<n;i++){
+        if(sieve[i])continue;
+        count++;
+        for(int j=2;j*i<n;j++)sieve[j*i]=true;
+    }
+    return count;
+}
+
 int main() {
+    cout<<countPrimes(10)<<endl;
     TreeNode a0(0);
     TreeNode a1(1);
     TreeNode a2(2);
