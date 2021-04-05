@@ -4,6 +4,8 @@
 #include <deque>
 #include <queue>
 #include <unordered_map>
+#include <set>
+#include <unordered_set>
 
 using namespace std;
 
@@ -172,6 +174,16 @@ ListNode* reverseList2(ListNode* head) {
     }
     return head;
 }
+
+
+//207
+struct courses{
+    unordered_set<int> cou
+};
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+
+}
+
 
 int main() {
     ListNode l5(5);
