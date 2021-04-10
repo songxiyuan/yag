@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/didi/yag/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/BigInteger.dir/all
 all: CMakeFiles/yag.dir/all
 
 .PHONY : all
@@ -83,9 +84,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/BigInteger.dir/clean
 clean: CMakeFiles/yag.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BigInteger.dir
+
+# All Build rule for target.
+CMakeFiles/BigInteger.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/didi/yag/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BigInteger"
+.PHONY : CMakeFiles/BigInteger.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BigInteger.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/didi/yag/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BigInteger.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/didi/yag/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BigInteger.dir/rule
+
+# Convenience name for target.
+BigInteger: CMakeFiles/BigInteger.dir/rule
+
+.PHONY : BigInteger
+
+# clean rule for target.
+CMakeFiles/BigInteger.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/clean
+.PHONY : CMakeFiles/BigInteger.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/yag.dir
@@ -94,7 +123,7 @@ clean: CMakeFiles/yag.dir/clean
 CMakeFiles/yag.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yag.dir/build.make CMakeFiles/yag.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yag.dir/build.make CMakeFiles/yag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/didi/yag/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target yag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/didi/yag/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target yag"
 .PHONY : CMakeFiles/yag.dir/all
 
 # Build rule for subdir invocation for target.

@@ -1,3 +1,4 @@
 /Users/didi/yag/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/didi/yag/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/didi/yag/cmake-build-debug/CMakeFiles/BigInteger.dir
 /Users/didi/yag/cmake-build-debug/CMakeFiles/yag.dir
