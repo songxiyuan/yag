@@ -90,14 +90,11 @@ istream& operator >> (istream &in, BigInteger& x) {
 
 int main()
 {
-    BigInteger x = 987654321;
+    BigInteger x = 123456789;
     cout<<x<<endl;
 
-    BigInteger y = 123456789;
+    BigInteger y = 111111111;
     cout<< x+y <<endl;
-
-    x += 111111111;
-    cout<< x <<endl;
 
     if(x < y) cout<<"x<y"<<endl;
     else if(x == y) cout<<"x==y"<<endl;
