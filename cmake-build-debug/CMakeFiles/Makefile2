@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/didi/yag/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/BigInteger.dir/all
+all: CMakeFiles/graph.dir/all
 all: CMakeFiles/yag.dir/all
 
 .PHONY : all
@@ -84,37 +84,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/BigInteger.dir/clean
+clean: CMakeFiles/graph.dir/clean
 clean: CMakeFiles/yag.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BigInteger.dir
+# Target rules for target CMakeFiles/graph.dir
 
 # All Build rule for target.
-CMakeFiles/BigInteger.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/didi/yag/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BigInteger"
-.PHONY : CMakeFiles/BigInteger.dir/all
+CMakeFiles/graph.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/didi/yag/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target graph"
+.PHONY : CMakeFiles/graph.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BigInteger.dir/rule: cmake_check_build_system
+CMakeFiles/graph.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/didi/yag/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BigInteger.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graph.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/didi/yag/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/BigInteger.dir/rule
+.PHONY : CMakeFiles/graph.dir/rule
 
 # Convenience name for target.
-BigInteger: CMakeFiles/BigInteger.dir/rule
+graph: CMakeFiles/graph.dir/rule
 
-.PHONY : BigInteger
+.PHONY : graph
 
 # clean rule for target.
-CMakeFiles/BigInteger.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/clean
-.PHONY : CMakeFiles/BigInteger.dir/clean
+CMakeFiles/graph.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/clean
+.PHONY : CMakeFiles/graph.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/yag.dir

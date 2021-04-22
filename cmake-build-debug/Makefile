@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BigInteger
+# Target rules for targets named graph
 
 # Build rule for target.
-BigInteger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BigInteger
-.PHONY : BigInteger
+graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graph
+.PHONY : graph
 
 # fast build rule for target.
-BigInteger/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/build
-.PHONY : BigInteger/fast
+graph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
+.PHONY : graph/fast
 
 #=============================================================================
 # Target rules for targets named yag
@@ -156,32 +156,32 @@ yag/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yag.dir/build.make CMakeFiles/yag.dir/build
 .PHONY : yag/fast
 
-Math/BigInteger.o: Math/BigInteger.cpp.o
+TypicalAlgorithm/Graph/graph.o: TypicalAlgorithm/Graph/graph.cpp.o
 
-.PHONY : Math/BigInteger.o
+.PHONY : TypicalAlgorithm/Graph/graph.o
 
 # target to build an object file
-Math/BigInteger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/Math/BigInteger.cpp.o
-.PHONY : Math/BigInteger.cpp.o
+TypicalAlgorithm/Graph/graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/TypicalAlgorithm/Graph/graph.cpp.o
+.PHONY : TypicalAlgorithm/Graph/graph.cpp.o
 
-Math/BigInteger.i: Math/BigInteger.cpp.i
+TypicalAlgorithm/Graph/graph.i: TypicalAlgorithm/Graph/graph.cpp.i
 
-.PHONY : Math/BigInteger.i
+.PHONY : TypicalAlgorithm/Graph/graph.i
 
 # target to preprocess a source file
-Math/BigInteger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/Math/BigInteger.cpp.i
-.PHONY : Math/BigInteger.cpp.i
+TypicalAlgorithm/Graph/graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/TypicalAlgorithm/Graph/graph.cpp.i
+.PHONY : TypicalAlgorithm/Graph/graph.cpp.i
 
-Math/BigInteger.s: Math/BigInteger.cpp.s
+TypicalAlgorithm/Graph/graph.s: TypicalAlgorithm/Graph/graph.cpp.s
 
-.PHONY : Math/BigInteger.s
+.PHONY : TypicalAlgorithm/Graph/graph.s
 
 # target to generate assembly for a file
-Math/BigInteger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BigInteger.dir/build.make CMakeFiles/BigInteger.dir/Math/BigInteger.cpp.s
-.PHONY : Math/BigInteger.cpp.s
+TypicalAlgorithm/Graph/graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/TypicalAlgorithm/Graph/graph.cpp.s
+.PHONY : TypicalAlgorithm/Graph/graph.cpp.s
 
 main.o: main.cpp.o
 
@@ -218,11 +218,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BigInteger"
+	@echo "... graph"
 	@echo "... yag"
-	@echo "... Math/BigInteger.o"
-	@echo "... Math/BigInteger.i"
-	@echo "... Math/BigInteger.s"
+	@echo "... TypicalAlgorithm/Graph/graph.o"
+	@echo "... TypicalAlgorithm/Graph/graph.i"
+	@echo "... TypicalAlgorithm/Graph/graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
