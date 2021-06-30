@@ -1,6 +1,7 @@
 //求质数
 
 #include<algorithm>
+#include<vector>
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -37,4 +38,19 @@ int main()
             cout<<count;
         }
     }
+}
+
+
+//质数筛选
+int countPrimes(int n) {//https://zhuanlan.zhihu.com/p/84523764
+    vector<bool> isPrim(n,true);
+    for (int i = 2; i * i < n; i++)
+        if (isPrim[i])
+            for (int j = i * i; j < n; j += i)
+                isPrim[j] = false;
+    int count = 0;
+    for (int i = 2; i < n; i++)
+        if (isPrim[i]) count++;
+
+    return count;
 }

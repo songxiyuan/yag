@@ -20,7 +20,7 @@ int main() {
     连通块数量(matrix);
 
     cout << endl;
-    //2.bfs求最短路径
+    //2.bfs求最短路径(路径距离、路径点)
     matrix.clear();
     matrix.push_back(vector<int>{0, 0, 1, 0, 0});
     matrix.push_back(vector<int>{0, 1, 0, 0, 0});
